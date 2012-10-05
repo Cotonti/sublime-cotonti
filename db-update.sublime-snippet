@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+\$${1:count} = \$db->update(\$db_${2:table_name}, ${3:\$updated_array}, "${4:where_column_name} = ?", array(${5:\$where_column_value}));
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>cotdbupd</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+</snippet>

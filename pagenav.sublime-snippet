@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[
+\$${7:pagenav} = cot_pagenav('${1:url_area}', '${2:url_params}', \$${3:d}, \$${4:totalitems}, \$${5:cfg['maxrowsperpage']}, '${3:d}');
+
+\$${8:t}->assign(array(
+	'${6:PREFIX}_PAGENAV'     => \$${7:pagenav}['main'],
+	'${6:PREFIX}_PAGEPREV'    => \$${7:pagenav}['prev'],
+	'${6:PREFIX}_PAGENEXT'    => \$${7:pagenav}['next'],
+	'${6:PREFIX}_CURRENTPAGE' => \$${7:pagenav}['current'],
+	'${6:PREFIX}_TOTALLINES'  => \$${4:totalitems},
+	'${6:PREFIX}_MAXPERPAGE'  => \$${5:cfg['maxrowsperpage']},
+	'${6:PREFIX}_TOTALPAGES'  => \$${7:pagenav}['total']
+));
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>cotpagenav</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+</snippet>

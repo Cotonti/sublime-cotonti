@@ -1,0 +1,51 @@
+<snippet>
+	<content><![CDATA[
+<?php defined('COT_CODE') or die('Wrong URL');
+/* ====================
+[BEGIN_COT_EXT]
+Hooks=tools
+[END_COT_EXT]
+==================== */
+
+// require_once cot_incfile('${1:myplug}', 'plug');
+
+if (\$_SERVER['REQUEST_METHOD'] == 'POST' && \$a == 'send')
+{
+	// Sample form handler
+	\$param = cot_import('param', 'P', 'TXT');
+	${2}
+
+	cot_check(empty(\$param), '${1:myplug}_err_param', 'param');
+	${3}
+
+	if (!cot_errors_found())
+	{
+		// Apply changes
+		${4}
+	}
+
+	// Return to the main page and show messages
+	cot_redirect(cot_url('admin', 'm=other&p=${1:myplug}', '', true));
+}
+
+\$tt = new XTemplate(cot_tplfile('${1:myplug}.tools', 'plug'));
+
+cot_display_messages($tt);
+
+// Display the main page
+${5}
+
+\$tt->assign(array(
+	'${6:MYPLUG}_URL'    => cot_url('admin', 'm=other&p=${1:myplug}'),
+	'${6:MYPLUG}_ACTION' => cot_url('admin', 'm=other&p=${1:myplug}&a=send')
+));
+
+\$tt->parse();
+\$plugin_body = \$tt->text('MAIN');
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>cottool</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

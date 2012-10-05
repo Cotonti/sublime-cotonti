@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+\$${1:t} = new XTemplate(cot_tplfile('${2:tpl.code}', '${3:plug}'));
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>cotnewxt</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+</snippet>

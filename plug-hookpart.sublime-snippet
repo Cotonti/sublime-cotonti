@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+<?php defined('COT_CODE') or die('Wrong URL');
+/* ====================
+[BEGIN_COT_EXT]
+Hooks=${1:hook.name}
+[END_COT_EXT]
+==================== */
+
+${2:// Your code here}
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>cotplug</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

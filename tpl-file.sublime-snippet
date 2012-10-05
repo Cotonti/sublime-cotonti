@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+{FILE "${1:\{PHP.cfg.themes_dir\}/\{PHP.theme\}}/${2:template_name}.tpl"}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>cottplfile</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

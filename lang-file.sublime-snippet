@@ -1,0 +1,33 @@
+<snippet>
+	<content><![CDATA[
+<?php defined('COT_CODE') or die('Wrong URL');
+/*
+ * English langfile for ${1:myext}
+ */
+
+
+/*
+ * Meta & configuration
+ */
+\$L['info_name'] = 'Localized Name';
+\$L['info_desc'] = 'Localized description of the extension';
+
+\$L['cfg_${2:option}'] = 'Option ${2:option} title';
+
+/*
+ * Main strings
+ */
+\$L['${1:myext}_title'] = 'Extension title';
+
+
+/*
+ * Messages
+ */
+\$L['${1:myext}_err_${3:param}'] = 'Error message for ${3:param}';
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>cotlang</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

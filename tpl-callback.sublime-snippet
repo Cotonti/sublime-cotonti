@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+{${1:TAG_NAME}|${2:callback_name}(${3:\$this},${4:arg2})}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>cottplcbk</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.html</scope> -->
+</snippet>

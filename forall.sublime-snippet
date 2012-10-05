@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[
+\$${6:res} = \$db->query("SELECT *
+	FROM \$db_${1:table_name}
+	WHERE ${2:condition}");
+
+foreach (\$${6:res}->fetchAll() as \$${5:row})
+{
+	\$${7:t}->assign(array(
+		'${3:BLOCK_ROW}_ID' => \$${5:row}['${4:pfx}_id'],
+		'${3:BLOCK_ROW}_TITLE' => htmlspecialchars(\$${5:row}['${4:pfx}_title'])
+	));
+	\$${7:t}->parse('MAIN.${3:BLOCK_ROW}');
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>cotforall</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+</snippet>

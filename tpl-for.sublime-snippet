@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+<!-- FOR {${1:KEY}}, {${2:VAL}} IN {${3:ARRAY_TAG}} -->
+${4:loop body HTML}
+<!-- ENDFOR -->
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>cottplfor</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

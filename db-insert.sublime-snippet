@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+\$${1:count} = \$db->insert(\$db_${2:table_name}, ${3:\$array});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>cotdbins</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+</snippet>

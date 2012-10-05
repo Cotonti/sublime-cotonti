@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+\$${1:res} = \$db->query("SELECT ${2:columns_list}
+	FROM \$db_${3:table_name}
+	WHERE ${4:condition}
+	ORDER BY ${5:order}
+	LIMIT \$${6:d}, \$${7:items_per_page}", array(${8:params}));
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>cotdbsel</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+</snippet>

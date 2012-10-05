@@ -1,0 +1,64 @@
+<snippet>
+	<content><![CDATA[
+<!-- BEGIN: MAIN -->
+<h2>{PHP.L.${1:myplug}_title}
+
+{FILE "{PHP.cfg.themes_dir}/{PHP.cfg.defaulttheme}/warnings.tpl"}
+
+<h3>{PHP.L.editdeleteentries}:</h3>
+<table class="cells">
+	<tr>
+		<td class="coltop">
+			#
+		</td>
+		<td class="coltop">
+			{PHP.L.Name}
+		</td>
+	</tr>
+	<!-- BEGIN: ${2:MYPLUG}_ROW -->
+	<tr>
+		<td>
+			{${2:MYPLUG}_ROW_ID}
+		</td>
+		<td>
+			{${2:MYPLUG}_ROW_NAME}
+		</td>
+	</tr>
+	<!-- END: ${2:MYPLUG}_ROW -->
+	<tr>
+		<td colspan="2">
+			<button type="submit">{PHP.L.Submit}</button>
+		</td>
+	</tr>
+</table>
+
+<p class="paging">{${2:MYPLUG}_PAGENAV_PREV} {${2:MYPLUG}_PAGENAV} {${2:MYPLUG}_PAGENAV_NEXT}</p>
+
+<h3>{PHP.L.Add}</h3>
+<form action="{${2:MYPLUG}_ACTION}" method="post">
+	<table class="cells">
+		<tr>
+			<td class="coltop">
+				<input type="text" name="" />
+			</td>
+			<td class="coltop">
+				<input type="text" name="" />
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<button>
+					{PHP.L.Add}
+				</button>
+			</td>
+		</tr>
+	</table>
+</form>
+
+<!-- END: MAIN -->
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>cottooltpl</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
