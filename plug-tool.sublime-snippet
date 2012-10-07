@@ -30,7 +30,7 @@ if (\$_SERVER['REQUEST_METHOD'] == 'POST' && \$a == 'send')
 
 \$tt = new XTemplate(cot_tplfile('${1:myplug}.tools', 'plug'));
 
-cot_display_messages($tt);
+cot_display_messages(\$tt);
 
 // Display the main page
 ${5}
