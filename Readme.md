@@ -8,6 +8,7 @@ This is a [Sublime Text][sublime] package containing frequently used snippets fo
  * cotdbcol - fetches a single column value from the database;
  * cotdbdel - deletes matched rows from database;
  * cotdbins - inserts rows into a database table;
+ * cotdbname - global table name declaration for variables like `$db_table_name`;
  * cotdbsel - common snippet for SELECTing data from the database;
  * cotdbupd - updates data in a database table;
  * cotforall - common snippet for fetching data from the database and rendering the rows in the template;
