@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-if (!isset(\$_GLOBALS['db_${1:table_name}'])) \$_GLOBALS['db_${1:table_name}'] = \$_GLOBALS['db_x'] . '${1:table_name}';
+if (!isset(\$GLOBALS['db_${1:table_name}'])) \$GLOBALS['db_${1:table_name}'] = \$GLOBALS['db_x'] . '${1:table_name}';
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>cotdbname</tabTrigger>
