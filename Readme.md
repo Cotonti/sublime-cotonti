@@ -34,6 +34,10 @@ This is a [Sublime Text][sublime] package containing frequently used snippets fo
  * cottplif - inserts CoTemplate IF statement;
  * cottplifels - inserts CoTemplate IF ... ELSE statement;
 
+## Hotkeys ##
+
+Select a line containing a Cotonti API funcion call starting with `cot_` prefix, e.g. `cot_input(...` and then hit "Ctrl + Alt + C" to open Cotonti Reference entry for that function.
+
 
 ## Installation ##
 

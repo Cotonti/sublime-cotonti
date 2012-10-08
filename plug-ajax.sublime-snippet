@@ -15,8 +15,6 @@ cot_sendheaders('${2:application/json}', '${3:200 OK}');
 
 echo ${4:json_encode(\$response)};
 
-exit;
-
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>cotajax</tabTrigger>
