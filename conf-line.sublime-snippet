@@ -1,9 +1,9 @@
 <snippet>
 	<content><![CDATA[
-${1:name}=${2:string}:${3:option1,option2}:${4:default_value}:${5:Description line}
+${1:name}=${2:01}:${3:string}:${4:option1,option2}:${5:default_value}:${6:Description line}
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>cotconf</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<!-- <scope>source.python</scope> -->
+	<scope>source.php</scope>
 </snippet>
