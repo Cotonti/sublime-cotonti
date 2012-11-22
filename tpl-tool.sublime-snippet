@@ -39,9 +39,17 @@
 	<table class="cells">
 		<tr>
 			<td class="coltop">
-				<input type="text" name="" />
+				{PHP.L.Name}
 			</td>
 			<td class="coltop">
+				{PHP.L.Description}
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<input type="text" name="" />
+			</td>
+			<td>
 				<input type="text" name="" />
 			</td>
 		</tr>
