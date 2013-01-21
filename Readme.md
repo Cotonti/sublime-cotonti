@@ -4,6 +4,7 @@ This is a [Sublime Text][sublime] package containing frequently used snippets fo
 
  * cotajax - generates an AJAX part of an extension;
  * cotass - a snippet for template tags assignment;
+ * cotcheck - a snippet for input validation via cot_check();
  * cotconf - inserts a new config line in an extension setup-file;
  * cotdbcol - fetches a single column value from the database;
  * cotdbdel - deletes matched rows from database;
