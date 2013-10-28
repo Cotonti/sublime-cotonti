@@ -18,7 +18,7 @@ Lock_members=${10:2345}
 Requires_modules=${11:page,users}
 Requires_plugins=${12}
 Recommends_modules=${13}
-Recomments_plugins=${14}
+Recommends_plugins=${14}
 [END_COT_EXT]
 
 [BEGIN_COT_EXT_CONFIG]
