@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_url('${1:myplugin}', '${2:m=somelocation}')
+]]></content>
+  <tabTrigger>cot_url</tabTrigger>
+  <description>Transforms parameters into URL by following user-defined values.</description>
+  <scope>source.php</scope>
+</snippet>

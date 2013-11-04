@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_stamp2date(${1:\$stamp})
+]]></content>
+  <tabTrigger>cot_stamp2date</tabTrigger>
+  <description>Converts UNIX timestamp into MySQL date.</description>
+  <scope>source.php</scope>
+</snippet>

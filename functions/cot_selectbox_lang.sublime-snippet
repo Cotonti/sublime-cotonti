@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_selectbox_lang(${1:\$user['user_lang']}, '${2:fieldname}')
+]]></content>
+  <tabTrigger>cot_selectbox_lang</tabTrigger>
+  <description>Returns language selection dropdown.</description>
+  <scope>source.php</scope>
+</snippet>

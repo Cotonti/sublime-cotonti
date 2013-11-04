@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_string_truncate(${1:\$text}, ${2:120})
+]]></content>
+  <tabTrigger>cot_string_truncate</tabTrigger>
+  <description>Cuts a string to the length of $length.</description>
+  <scope>source.php</scope>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_xp(${1:})
+]]></content>
+  <tabTrigger>cot_xp</tabTrigger>
+  <description>Returns XSS protection field for POST forms.</description>
+  <scope>source.php</scope>
+</snippet>

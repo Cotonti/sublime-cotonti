@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_load_structure(${1:})
+]]></content>
+  <tabTrigger>cot_load_structure</tabTrigger>
+  <description>Loads complete category structure into array.</description>
+  <scope>source.php</scope>
+</snippet>

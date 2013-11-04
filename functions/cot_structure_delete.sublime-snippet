@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_structure_delete('${1:myplugin}', ${2:\$code}, ${3:true})
+]]></content>
+  <tabTrigger>cot_structure_delete</tabTrigger>
+  <description>Removes a category.</description>
+  <scope>source.php</scope>
+</snippet>

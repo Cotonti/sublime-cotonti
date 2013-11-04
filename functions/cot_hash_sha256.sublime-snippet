@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_hash_sha256(${1:\$data}, ${2:\$salt})
+]]></content>
+  <tabTrigger>cot_hash_sha256</tabTrigger>
+  <description>SHA256 hash func for use with cot_hash(). Default since Cotonti 0.9.11.</description>
+  <scope>source.php</scope>
+</snippet>

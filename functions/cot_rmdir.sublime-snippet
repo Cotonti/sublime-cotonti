@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_rmdir(${1:\$cfg['cache_dir'] . '/myplugin'})
+]]></content>
+  <tabTrigger>cot_rmdir</tabTrigger>
+  <description>Removes a directory recursively.</description>
+  <scope>source.php</scope>
+</snippet>

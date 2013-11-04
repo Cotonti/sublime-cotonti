@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_outputfilters(${1:\$output})
+]]></content>
+  <tabTrigger>cot_outputfilters</tabTrigger>
+  <description>Standard SED output filters, adds XSS protection to forms.</description>
+  <scope>source.php</scope>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_check(${1:\$condition}, '${2:error_message}', '${3:error_field}')
+]]></content>
+  <tabTrigger>cot_check</tabTrigger>
+  <description>If condition is true, triggers an error with given message and source.</description>
+  <scope>source.php</scope>
+</snippet>

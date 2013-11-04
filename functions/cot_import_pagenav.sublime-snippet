@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_import_pagenav('${1:d}', ${2:\$cfg['myplug']['maxitems']})
+]]></content>
+  <tabTrigger>cot_import_pagenav</tabTrigger>
+  <description>Imports pagination indexes.</description>
+  <scope>source.php</scope>
+</snippet>

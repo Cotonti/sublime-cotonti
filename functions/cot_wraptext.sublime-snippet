@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_wraptext(${1:\$str}, ${2:80})
+]]></content>
+  <tabTrigger>cot_wraptext</tabTrigger>
+  <description>Wraps text.</description>
+  <scope>source.php</scope>
+</snippet>

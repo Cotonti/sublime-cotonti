@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_translit_decode(${1:\$str})
+]]></content>
+  <tabTrigger>cot_translit_decode</tabTrigger>
+  <description>Backwards transition for cot_translit_encode</description>
+  <scope>source.php</scope>
+</snippet>

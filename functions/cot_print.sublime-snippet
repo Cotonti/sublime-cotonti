@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_print(${1:\$var})
+]]></content>
+  <tabTrigger>cot_print</tabTrigger>
+  <description>Accepts serveral variables and prints their values in debug mode (var dump).</description>
+  <scope>source.php</scope>
+</snippet>

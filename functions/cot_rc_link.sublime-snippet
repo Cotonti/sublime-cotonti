@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_rc_link(${1:\$my_url}, ${2:\$L['My_URL']})
+]]></content>
+  <tabTrigger>cot_rc_link</tabTrigger>
+  <description>Quick link resource pattern.</description>
+  <scope>source.php</scope>
+</snippet>

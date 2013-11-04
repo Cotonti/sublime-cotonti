@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_auth_getlevel(${1:\$usr['id']}, ${2:false})
+]]></content>
+  <tabTrigger>cot_auth_getlevel</tabTrigger>
+  <description>Returns highest level of all groups a user belongs to.</description>
+  <scope>source.php</scope>
+</snippet>

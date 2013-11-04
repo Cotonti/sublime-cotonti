@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_get_parsers(${1:})
+]]></content>
+  <tabTrigger>cot_get_parsers</tabTrigger>
+  <description>Returns the list of available markup parsers.</description>
+  <scope>source.php</scope>
+</snippet>

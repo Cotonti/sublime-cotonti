@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_import_list(${1:\$fields}, '${2:P}', ${3:\$origindata}, '${4:prefix_}')
+]]></content>
+  <tabTrigger>cot_import_list</tabTrigger>
+  <description>Imports data from the outer world by list of variable names.</description>
+  <scope>source.php</scope>
+</snippet>

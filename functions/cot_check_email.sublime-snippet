@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_check_email(${1:\$email})
+]]></content>
+  <tabTrigger>cot_check_email</tabTrigger>
+  <description>Checks the email.</description>
+  <scope>source.php</scope>
+</snippet>

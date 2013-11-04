@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_selectbox_theme(${1:\$usr['user_theme']}, ${2:\$usr['user_scheme']}, '${3:fieldname}')
+]]></content>
+  <tabTrigger>cot_selectbox_theme</tabTrigger>
+  <description>Returns Theme/Scheme selection dropdown.</description>
+  <scope>source.php</scope>
+</snippet>

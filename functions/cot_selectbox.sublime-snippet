@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_selectbox('${1:}', '${2:fieldname}', array_keys(${3:\$values}), array_values(${4:\$values}), ${5:false})
+]]></content>
+  <tabTrigger>cot_selectbox</tabTrigger>
+  <description>Renders a dropdown.</description>
+  <scope>source.php</scope>
+</snippet>

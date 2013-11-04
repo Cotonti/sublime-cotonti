@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_build_number(${1:\$number}, ${2:1})
+]]></content>
+  <tabTrigger>cot_build_number</tabTrigger>
+  <description>Wrapper for number_format() using locale number formatting and optional rounding.</description>
+  <scope>source.php</scope>
+</snippet>

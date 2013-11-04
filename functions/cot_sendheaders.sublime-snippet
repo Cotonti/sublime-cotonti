@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_sendheaders('${1:text/html}', '${2:200 OK}')
+]]></content>
+  <tabTrigger>cot_sendheaders</tabTrigger>
+  <description>Sends standard HTTP headers and disables browser cache.</description>
+  <scope>source.php</scope>
+</snippet>

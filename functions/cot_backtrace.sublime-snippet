@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_backtrace(${1:})
+]]></content>
+  <tabTrigger>cot_backtrace</tabTrigger>
+  <description>Prints program execution backtrace.</description>
+  <scope>source.php</scope>
+</snippet>

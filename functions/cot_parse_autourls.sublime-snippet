@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_parse_autourls(${1:\$text})
+]]></content>
+  <tabTrigger>cot_parse_autourls</tabTrigger>
+  <description>Automatically detect and parse URLs in text into HTML.</description>
+  <scope>source.php</scope>
+</snippet>

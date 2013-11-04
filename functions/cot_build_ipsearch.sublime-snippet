@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_build_ipsearch(${1:\$ip})
+]]></content>
+  <tabTrigger>cot_build_ipsearch</tabTrigger>
+  <description>Returns IP Search link.</description>
+  <scope>source.php</scope>
+</snippet>

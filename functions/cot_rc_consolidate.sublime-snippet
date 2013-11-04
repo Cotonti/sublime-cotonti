@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_rc_consolidate(${1:})
+]]></content>
+  <tabTrigger>cot_rc_consolidate</tabTrigger>
+  <description>Consolidates local JS and CSS resources used during script execution.</description>
+  <scope>source.php</scope>
+</snippet>

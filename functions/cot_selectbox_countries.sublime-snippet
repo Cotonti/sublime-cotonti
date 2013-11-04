@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_selectbox_countries(${1:\$user['country']}, '${2:user_country}'),
+]]></content>
+  <tabTrigger>cot_selectbox_countries</tabTrigger>
+  <description>Renders country dropdown.</description>
+  <scope>source.php</scope>
+</snippet>

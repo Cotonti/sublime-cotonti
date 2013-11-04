@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_shutdown(${1:})
+]]></content>
+  <tabTrigger>cot_shutdown</tabTrigger>
+  <description>Performs actions required right before shutdown.</description>
+  <scope>source.php</scope>
+</snippet>

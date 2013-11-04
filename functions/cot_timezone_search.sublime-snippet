@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_timezone_search('${1:uk}')
+]]></content>
+  <tabTrigger>cot_timezone_search</tabTrigger>
+  <description>Returns a list of possible timezones based on country and/or GMT offset.</description>
+  <scope>source.php</scope>
+</snippet>

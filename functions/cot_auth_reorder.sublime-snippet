@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_auth_reorder(${1:})
+]]></content>
+  <tabTrigger>cot_auth_reorder</tabTrigger>
+  <description>Optimizes auth table by sorting its rows.</description>
+  <scope>source.php</scope>
+</snippet>

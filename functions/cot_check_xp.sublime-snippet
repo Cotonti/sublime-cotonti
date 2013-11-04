@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_check_xp(${1:})
+]]></content>
+  <tabTrigger>cot_check_xp</tabTrigger>
+  <description>Check POST anti-XSS parameter.</description>
+  <scope>source.php</scope>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_build_age(${1:\$birthdate})
+]]></content>
+  <tabTrigger>cot_build_age</tabTrigger>
+  <description>Calculates age out of date of birth.</description>
+  <scope>source.php</scope>
+</snippet>

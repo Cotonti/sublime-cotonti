@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_get_editors(${1:})
+]]></content>
+  <tabTrigger>cot_get_editors</tabTrigger>
+  <description>Returns the list of available rich text editors.</description>
+  <scope>source.php</scope>
+</snippet>

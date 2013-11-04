@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_build_oddeven(${1:\$number})
+]]></content>
+  <tabTrigger>cot_build_oddeven</tabTrigger>
+  <description>Odd/even class choser for row.</description>
+  <scope>source.php</scope>
+</snippet>

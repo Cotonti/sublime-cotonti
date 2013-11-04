@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_inputbox('${1:text}', '${2:fieldname}', '${3:fieldvalue}', array('${4:size}' => ${5:56}, '${6:maxlength}' => ${7:255}))
+]]></content>
+  <tabTrigger>cot_inputbox</tabTrigger>
+  <description>Generates a form input from a resource string.</description>
+  <scope>source.php</scope>
+</snippet>

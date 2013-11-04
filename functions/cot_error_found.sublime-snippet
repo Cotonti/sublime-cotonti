@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_error_found(${1:})
+]]></content>
+  <tabTrigger>cot_error_found</tabTrigger>
+  <description>Checks if any errors have been previously detected during current script execution.</description>
+  <scope>source.php</scope>
+</snippet>

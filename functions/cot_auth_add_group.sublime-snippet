@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_auth_add_group(${1:\$grp_id}, ${2:\$copy_rights_from})
+]]></content>
+  <tabTrigger>cot_auth_add_group</tabTrigger>
+  <description>Registers a user group in auth table.</description>
+  <scope>source.php</scope>
+</snippet>

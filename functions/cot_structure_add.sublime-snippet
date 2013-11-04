@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_structure_add('${1:myextension}', ${2:\$structure}, ${3:true})
+]]></content>
+  <tabTrigger>cot_structure_add</tabTrigger>
+  <description>Adds a new category</description>
+  <scope>source.php</scope>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_shield_clearaction(${1:})
+]]></content>
+  <tabTrigger>cot_shield_clearaction</tabTrigger>
+  <description>Clears current user action in shield.</description>
+  <scope>source.php</scope>
+</snippet>

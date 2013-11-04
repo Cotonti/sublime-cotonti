@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_randomstring(${1:})
+]]></content>
+  <tabTrigger>cot_randomstring</tabTrigger>
+  <description>Generates random string within specified charlist.</description>
+  <scope>source.php</scope>
+</snippet>

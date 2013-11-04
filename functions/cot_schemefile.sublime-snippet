@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_schemefile(${1:})
+]]></content>
+  <tabTrigger>cot_schemefile</tabTrigger>
+  <description>Tries to detect and fetch a user scheme CSS file or returns FALSE on error.</description>
+  <scope>source.php</scope>
+</snippet>

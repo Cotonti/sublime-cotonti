@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_hash(${1:\$data}, ${2:\$salt}, '${3:sha256}')
+]]></content>
+  <tabTrigger>cot_hash</tabTrigger>
+  <description>Hashes a value with given salt and specified hash algo.</description>
+  <scope>source.php</scope>
+</snippet>

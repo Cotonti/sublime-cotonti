@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_checkpoint(${1:})
+]]></content>
+  <tabTrigger>cot_checkpoint</tabTrigger>
+  <description>Dumps current state of global variables into debug log file and continues normal script execution.</description>
+  <scope>source.php</scope>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_rc_embed("${1:somevar = \$var;}")
+]]></content>
+  <tabTrigger>cot_rc_embed</tabTrigger>
+  <description>A shortcut for plain output of an embedded stylesheet/javascript in the header of the page.</description>
+  <scope>source.php</scope>
+</snippet>

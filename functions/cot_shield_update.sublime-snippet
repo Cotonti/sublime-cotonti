@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_shield_update(${1:7}, '${2:Log in}')
+]]></content>
+  <tabTrigger>cot_shield_update</tabTrigger>
+  <description>Updates shield state.</description>
+  <scope>source.php</scope>
+</snippet>

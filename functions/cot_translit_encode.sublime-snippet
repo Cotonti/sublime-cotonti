@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_translit_encode(${1:\$str})
+]]></content>
+  <tabTrigger>cot_translit_encode</tabTrigger>
+  <description>Transliterates a string if transliteration is available.</description>
+  <scope>source.php</scope>
+</snippet>

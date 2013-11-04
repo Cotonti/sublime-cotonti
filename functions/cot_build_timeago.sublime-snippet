@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_build_timeago(${1:\$time}, ${2:60})
+]]></content>
+  <tabTrigger>cot_build_timeago</tabTrigger>
+  <description>Returns readable time difference or 'Just now'.</description>
+  <scope>source.php</scope>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_auth_add_item('${1:myplugin}', '${2:item123}', ${3:\$auth_permit}, ${4:\$auth_lock})
+]]></content>
+  <tabTrigger>cot_auth_add_item</tabTrigger>
+  <description>Adds a new object into access control lists.</description>
+  <scope>source.php</scope>
+</snippet>

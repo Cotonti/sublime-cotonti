@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_auth_build(${1:\$userid}, ${2:0})
+]]></content>
+  <tabTrigger>cot_auth_build</tabTrigger>
+  <description>Builds Access Control List (ACL) for a specific user.</description>
+  <scope>source.php</scope>
+</snippet>

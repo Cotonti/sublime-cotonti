@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_timezone_list(${1:false}, ${2:false})
+]]></content>
+  <tabTrigger>cot_timezone_list</tabTrigger>
+  <description>Returns a list of timezones sorted by GMT offset.</description>
+  <scope>source.php</scope>
+</snippet>

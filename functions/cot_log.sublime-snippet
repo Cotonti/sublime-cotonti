@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_log('${1:Deleted page}', '${2:adm}')
+]]></content>
+  <tabTrigger>cot_log</tabTrigger>
+  <description>Logs an event.</description>
+  <scope>source.php</scope>
+</snippet>

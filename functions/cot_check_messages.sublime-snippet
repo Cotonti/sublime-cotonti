@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_check_messages(${1:})
+]]></content>
+  <tabTrigger>cot_check_messages</tabTrigger>
+  <description>Checks if there are message to display.</description>
+  <scope>source.php</scope>
+</snippet>

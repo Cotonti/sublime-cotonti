@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_alphaonly(${1:\$string})
+]]></content>
+  <tabTrigger>cot_alphaonly</tabTrigger>
+  <description>Strips everything but alphanumeric, hyphens and underscores.</description>
+  <scope>source.php</scope>
+</snippet>

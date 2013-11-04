@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_auth_clear('${1:all}')
+]]></content>
+  <tabTrigger>cot_auth_clear</tabTrigger>
+  <description>Clears user permissions cache</description>
+  <scope>source.php</scope>
+</snippet>

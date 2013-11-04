@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_plugin_active('${1:pluginname}')
+]]></content>
+  <tabTrigger>cot_plugin_active</tabTrigger>
+  <description>Checks if a plugin is currently installed and active.</description>
+  <scope>source.php</scope>
+</snippet>

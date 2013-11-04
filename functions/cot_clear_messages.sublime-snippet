@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_clear_messages(${1:})
+]]></content>
+  <tabTrigger>cot_clear_messages</tabTrigger>
+  <description>Clears error and other messages after they have been displayed.</description>
+  <scope>source.php</scope>
+</snippet>

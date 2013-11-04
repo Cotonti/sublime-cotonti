@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_breadcrumbs({1:\$crumbs}, ${2:\$cfg['homebreadcrumb']}, ${3:true})
+]]></content>
+  <tabTrigger>cot_breadcrumbs</tabTrigger>
+  <description>Renders breadcrumbs string from array of path crumbs.</description>
+  <scope>source.php</scope>
+</snippet>

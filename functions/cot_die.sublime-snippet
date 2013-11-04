@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_die(${1:})
+]]></content>
+  <tabTrigger>cot_die</tabTrigger>
+  <description>Terminates script executions and performs redirect.</description>
+  <scope>source.php</scope>
+</snippet>

@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-list(\$${3:pg}, \$${4:d}, \$${5:durl}) = cot_import_pagenav('${1:d}', \$${2:cfg['maxrowsperpage']});
-]]></content>
-	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>cotimppagenav</tabTrigger>
-	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<scope>source.php</scope>
-</snippet>

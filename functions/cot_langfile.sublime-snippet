@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_langfile('${1:myplugin}', '${2:plug}')
+]]></content>
+  <tabTrigger>cot_langfile</tabTrigger>
+  <description>Returns a language file path for an extension or core part.</description>
+  <scope>source.php</scope>
+</snippet>

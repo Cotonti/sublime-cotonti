@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_build_url(${1:\$text}, ${2:64})
+]]></content>
+  <tabTrigger>cot_build_url</tabTrigger>
+  <description>Returns link for URL.</description>
+  <scope>source.php</scope>
+</snippet>

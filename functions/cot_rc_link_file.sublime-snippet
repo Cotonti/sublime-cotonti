@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_rc_link_file(${1:\$cfg['modules_dir'] . '/mymodule/tpl/somefile.css'});
+]]></content>
+  <tabTrigger>cot_rc_link_file</tabTrigger>
+  <description>A shortcut for plain output of a link to a CSS/JS file in the header of the page.</description>
+  <scope>source.php</scope>
+</snippet>

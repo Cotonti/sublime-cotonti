@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_hash_md5(${1:\$data}, ${2:\$salt})
+]]></content>
+  <tabTrigger>cot_hash_md5</tabTrigger>
+  <description>Simple MD5 hash wrapper. Old passwords use this func.</description>
+  <scope>source.php</scope>
+</snippet>

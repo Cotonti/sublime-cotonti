@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_error('${1:my_message_short}', '${2:my_message}')
+]]></content>
+  <tabTrigger>cot_error</tabTrigger>
+  <description>Records an error message to be displayed on results page.</description>
+  <scope>source.php</scope>
+</snippet>

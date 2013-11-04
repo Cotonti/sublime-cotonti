@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_confirm_url(${1:\$target_url}, '${2:myplugin}', '${3:message}')
+]]></content>
+  <tabTrigger>cot_confirm_url</tabTrigger>
+  <description>Generates a URL used to confirm an action performed by target URL.</description>
+  <scope>source.php</scope>
+</snippet>

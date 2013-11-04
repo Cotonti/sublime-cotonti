@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_auth_getmask(${1:\$permission_byte})
+]]></content>
+  <tabTrigger>cot_auth_getmask</tabTrigger>
+  <description>Returns an access character mask for a given access byte.</description>
+  <scope>source.php</scope>
+</snippet>

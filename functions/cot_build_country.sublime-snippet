@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_build_country(${1:\$flag})
+]]></content>
+  <tabTrigger>cot_build_country</tabTrigger>
+  <description>Returns country text button.</description>
+  <scope>source.php</scope>
+</snippet>

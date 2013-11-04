@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_auth(${1:\$area}, ${2:\$option}, '${3:RWA}')
+]]></content>
+  <tabTrigger>cot_auth</tabTrigger>
+  <description>Returns specific access permissions.</description>
+  <scope>source.php</scope>
+</snippet>

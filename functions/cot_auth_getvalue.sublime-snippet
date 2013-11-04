@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_auth_getvalue('${1:RW1A}')
+]]></content>
+  <tabTrigger>cot_auth_getvalue</tabTrigger>
+  <description>Converts an access character mask into a permission byte.</description>
+  <scope>source.php</scope>
+</snippet>

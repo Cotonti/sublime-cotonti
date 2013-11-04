@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_watch(${1:\$var})
+]]></content>
+  <tabTrigger>cot_watch</tabTrigger>
+  <description>Dumps current state of its arguments to debug log file and continues normal script execution.</description>
+  <scope>source.php</scope>
+</snippet>

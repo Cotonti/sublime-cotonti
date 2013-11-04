@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_shield_protect(${1:})
+]]></content>
+  <tabTrigger>cot_shield_protect</tabTrigger>
+  <description>Warn user of shield protection.</description>
+  <scope>source.php</scope>
+</snippet>

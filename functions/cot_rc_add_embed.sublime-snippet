@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+cot_rc_add_embed('${1:tags.autocomplete}', '${2:\$(document).ready(function() {
+  // My code
+\});}')
+]]></content>
+  <tabTrigger>cot_rc_add_embed</tabTrigger>
+  <description>Puts a portion of embedded code into the header/footer CSS/JS resource registry.</description>
+  <scope>source.php</scope>
+</snippet>

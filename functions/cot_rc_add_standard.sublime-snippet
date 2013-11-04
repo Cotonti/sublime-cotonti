@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_rc_add_standard(${1:})
+]]></content>
+  <tabTrigger>cot_rc_add_standard</tabTrigger>
+  <description>Registers standard resources.</description>
+  <scope>source.php</scope>
+</snippet>

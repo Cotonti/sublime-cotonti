@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_get_messages(${1:})
+]]></content>
+  <tabTrigger>cot_get_messages</tabTrigger>
+  <description>Returns an array of messages for a specific source and/or class.</description>
+  <scope>source.php</scope>
+</snippet>

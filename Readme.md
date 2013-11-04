@@ -50,7 +50,7 @@ If you have the [Package Control][package_control] package installed, you can in
 
 If you haven't got Package Control installed (seriously, go install it!) you will need to make a clone of this repository into your packages folder, like so:
 
-    git clone https://github.com/trustmaster/sublime-cotonti.git Cotonti
+    git clone https://github.com/Cotonti/sublime-cotonti.git Cotonti
 
 
 [sublime]: http://www.sublimetext.com/

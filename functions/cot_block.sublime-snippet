@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_block(${1:})
+]]></content>
+  <tabTrigger>cot_block</tabTrigger>
+  <description>Block user if he is not allowed to access the page.</description>
+  <scope>source.php</scope>
+</snippet>

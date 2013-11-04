@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_build_filesize(${1:\$bytes}, ${2:1})
+]]></content>
+  <tabTrigger>cot_build_filesize</tabTrigger>
+  <description>Generate human-readable filesize.</description>
+  <scope>source.php</scope>
+</snippet>

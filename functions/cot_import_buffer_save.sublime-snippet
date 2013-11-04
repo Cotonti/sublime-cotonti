@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_import_buffer_save(${1:})
+]]></content>
+  <tabTrigger>cot_import_buffer_save</tabTrigger>
+  <description>Puts POST data into the cross-request buffer.</description>
+  <scope>source.php</scope>
+</snippet>

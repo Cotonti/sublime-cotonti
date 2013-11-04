@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_build_timezone(${1:\$usr['timezone']})
+]]></content>
+  <tabTrigger>cot_build_timezone</tabTrigger>
+  <description>Returns timezone offset formatted according to ISO 8601.</description>
+  <scope>source.php</scope>
+</snippet>

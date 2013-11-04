@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_module_active('${1:modulename}')
+]]></content>
+  <tabTrigger>cot_module_active</tabTrigger>
+  <description>Checks if a module is currently installed and active.</description>
+  <scope>source.php</scope>
+</snippet>

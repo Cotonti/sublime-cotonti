@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_selectbox_date(${1:\$sys['now']}, '${2:long}', '${3:fieldname}')
+]]></content>
+  <tabTrigger>cot_selectbox_date</tabTrigger>
+  <description>Generates date part dropdown.</description>
+  <scope>source.php</scope>
+</snippet>

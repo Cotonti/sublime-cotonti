@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_rc_attr_string(${1:\$attrs})
+]]></content>
+  <tabTrigger>cot_rc_attr_string</tabTrigger>
+  <description>Converts custom attributes to a string if necessary.</description>
+  <scope>source.php</scope>
+</snippet>

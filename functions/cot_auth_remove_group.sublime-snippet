@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_auth_remove_group(${1:\$group_id})
+]]></content>
+  <tabTrigger>cot_auth_remove_group</tabTrigger>
+  <description>Removes a user group from auth table.</description>
+  <scope>source.php</scope>
+</snippet>

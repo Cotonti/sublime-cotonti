@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_selectbox_timezone(${1:\$usr['user_timezone']}, '${2:fieldname}')
+]]></content>
+  <tabTrigger>cot_selectbox_timezone</tabTrigger>
+  <description>Returns timezone selection dropdown.</description>
+  <scope>source.php</scope>
+</snippet>

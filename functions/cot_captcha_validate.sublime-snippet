@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_captcha_validate(${1:\$value})
+]]></content>
+  <tabTrigger>cot_captcha_validate</tabTrigger>
+  <description>Valides a captcha value.</description>
+  <scope>source.php</scope>
+</snippet>

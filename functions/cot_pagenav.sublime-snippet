@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_pagenav('${1:url_area}', '${2:url_params}', '${3:d}', ${4:\$totalitems}, ${5:\$cfg['maxrowsperpage']})
+]]></content>
+  <tabTrigger>cot_pagenav</tabTrigger>
+  <description>Page navigation (pagination) builder. Uses URL transformation and resource strings.</description>
+  <scope>source.php</scope>
+</snippet>

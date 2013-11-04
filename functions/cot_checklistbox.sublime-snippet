@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_checklistbox('${1:}', '${2:name}', array('${3:key}' => '${4:value}'), array('${5:key}' => '${6:value}'), '${7:}', '${8:}', ${9:true}, '${10:}')
+]]></content>
+  <tabTrigger>cot_checklistbox</tabTrigger>
+  <description>Generates a checklistbox output</description>
+  <scope>source.php</scope>
+</snippet>

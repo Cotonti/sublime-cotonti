@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_checkbox(${1:0}, '${2:fieldname}', '${3:fieldtitle}')
+]]></content>
+  <tabTrigger>cot_checkbox</tabTrigger>
+  <description>Generates a checkbox output.</description>
+  <scope>source.php</scope>
+</snippet>

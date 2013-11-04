@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_incfile('${1:mymodule}', '${2:module}')
+]]></content>
+  <tabTrigger>cot_incfile</tabTrigger>
+  <description>Returns path to include file.</description>
+  <scope>source.php</scope>
+</snippet>

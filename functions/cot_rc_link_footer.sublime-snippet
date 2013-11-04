@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_rc_link_footer(${1:\$cfg['plugins_dir'] . '/myplugin/lib/somefile.js'})
+]]></content>
+  <tabTrigger>cot_rc_link_footer</tabTrigger>
+  <description>A shortcut to append a Javascript or CSS file to {FOOTER_JS} tag.</description>
+  <scope>source.php</scope>
+</snippet>

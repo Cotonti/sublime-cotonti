@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_structure_buildpath('${1:myplugin}', ${2:\$cat})
+]]></content>
+  <tabTrigger>cot_structure_buildpath</tabTrigger>
+  <description>Builds category path for cot_breadcrumbs().</description>
+  <scope>source.php</scope>
+</snippet>

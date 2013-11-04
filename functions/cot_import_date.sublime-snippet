@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_import_date(${1:\$date}, ${2:true})
+]]></content>
+  <tabTrigger>cot_import_date</tabTrigger>
+  <description>Imports date stamp.</description>
+  <scope>source.php</scope>
+</snippet>

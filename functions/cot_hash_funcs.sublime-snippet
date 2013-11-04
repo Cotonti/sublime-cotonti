@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_hash_funcs(${1:})
+]]></content>
+  <tabTrigger>cot_hash_funcs</tabTrigger>
+  <description>Returns a list of available hash algos for use with configs.</description>
+  <scope>source.php</scope>
+</snippet>

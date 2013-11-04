@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_auth_remove_item('${1:mymodule}')
+]]></content>
+  <tabTrigger>cot_auth_remove_item</tabTrigger>
+  <description>Removes an object from ACL.</description>
+  <scope>source.php</scope>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_date2stamp(${1:\$date}, '${2:short}')
+]]></content>
+  <tabTrigger>cot_date2stamp</tabTrigger>
+  <description>Converts date into UNIX timestamp.</description>
+  <scope>source.php</scope>
+</snippet>

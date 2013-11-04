@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_unique(${1:16})
+]]></content>
+  <tabTrigger>cot_unique</tabTrigger>
+  <description>Generates random string within hexadecimal range.</description>
+  <scope>source.php</scope>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_mktime(${1:})
+]]></content>
+  <tabTrigger>cot_mktime</tabTrigger>
+  <description>Creates UNIX timestamp out of a date.</description>
+  <scope>source.php</scope>
+</snippet>

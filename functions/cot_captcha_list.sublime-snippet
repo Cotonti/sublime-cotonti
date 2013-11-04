@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_captcha_list(${1:})
+]]></content>
+  <tabTrigger>cot_captcha_list</tabTrigger>
+  <description>Returns a list of currently installed captchas.</description>
+  <scope>source.php</scope>
+</snippet>

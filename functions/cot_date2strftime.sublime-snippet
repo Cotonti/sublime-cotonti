@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_date2strftime('${1:%Y-%m-%d}')
+]]></content>
+  <tabTrigger>cot_date2strftime</tabTrigger>
+  <description>Convert a date format to a strftime format.</description>
+  <scope>source.php</scope>
+</snippet>

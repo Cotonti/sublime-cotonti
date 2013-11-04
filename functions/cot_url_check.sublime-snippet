@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_url_check(${1:\$url})
+]]></content>
+  <tabTrigger>cot_url_check</tabTrigger>
+  <description>Checks if an absolute URL belongs to current site or its subdomains.</description>
+  <scope>source.php</scope>
+</snippet>

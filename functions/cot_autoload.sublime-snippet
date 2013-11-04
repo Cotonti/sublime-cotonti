@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_autoload(${1:\$string})
+]]></content>
+  <tabTrigger>cot_autoload</tabTrigger>
+  <description>Generic autoloader function to be used with spl_autoload_register.</description>
+  <scope>source.php</scope>
+</snippet>

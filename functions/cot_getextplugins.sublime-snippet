@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_getextplugins('${1:myplugin.tags}')
+]]></content>
+  <tabTrigger>cot_getextplugins</tabTrigger>
+  <description>Returns a list of plugins registerd for a hook.</description>
+  <scope>source.php</scope>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_selectbox_structure('${1:myplugin}', ${2:\$myplug['page_cat']}, '${3:fieldname}')
+]]></content>
+  <tabTrigger>cot_selectbox_structure</tabTrigger>
+  <description>Renders structure dropdown.</description>
+  <scope>source.php</scope>
+</snippet>

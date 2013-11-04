@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_build_timegap(${1:\$t1}, ${2:\$sys['now']})
+]]></content>
+  <tabTrigger>cot_build_timegap</tabTrigger>
+  <description>Returns time gap between two timestamps.</description>
+  <scope>source.php</scope>
+</snippet>

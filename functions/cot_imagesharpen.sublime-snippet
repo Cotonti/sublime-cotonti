@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_imagesharpen(${1:\$imgdata}, ${2:\$source_width}, ${3:\$target_width})
+]]></content>
+  <tabTrigger>cot_imagesharpen</tabTrigger>
+  <description>Sharpen an image after resize.</description>
+  <scope>source.php</scope>
+</snippet>

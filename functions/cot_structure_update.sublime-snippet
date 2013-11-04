@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_structure_update('${1:myplugin}', ${2:\$id}, ${3:\$old_data}, ${4:\$new_data}, ${5:true})
+]]></content>
+  <tabTrigger>cot_structure_update</tabTrigger>
+  <description>Updates an existing category in the database.</description>
+  <scope>source.php</scope>
+</snippet>

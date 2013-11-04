@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_display_messages(${1:\$t})
+]]></content>
+  <tabTrigger>cot_display_messages</tabTrigger>
+  <description>Renders different messages on page.</description>
+  <scope>source.php</scope>
+</snippet>

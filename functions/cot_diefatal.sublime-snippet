@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_diefatal('${1:Reason is unknown.}', '${2:Fatal error}')
+]]></content>
+  <tabTrigger>cot_diefatal</tabTrigger>
+  <description>Terminates script execution with fatal error.</description>
+  <scope>source.php</scope>
+</snippet>

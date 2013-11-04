@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_title(${1:\$cfg['myplugin']['mytitle']}, ${2:\$params})
+]]></content>
+  <tabTrigger>cot_title</tabTrigger>
+  <description>Generates a title string by replacing submasks with assigned values.</description>
+  <scope>source.php</scope>
+</snippet>

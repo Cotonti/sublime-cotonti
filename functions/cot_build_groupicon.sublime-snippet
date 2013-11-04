@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_build_groupicon(${1:\$src})
+]]></content>
+  <tabTrigger>cot_build_groupicon</tabTrigger>
+  <description>Returns user group icon.</description>
+  <scope>source.php</scope>
+</snippet>

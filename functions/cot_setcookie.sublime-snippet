@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_setcookie(${1:\$sys['site_id']}, '${2:}', ${3:time()-63072000}, ${4:\$cfg['cookiepath']}, ${5:\$cfg['cookiedomain']}, ${6:\$sys['secure']}, ${7:true})
+]]></content>
+  <tabTrigger>cot_setcookie</tabTrigger>
+  <description>Set cookie with optional HttpOnly flag.</description>
+  <scope>source.php</scope>
+</snippet>

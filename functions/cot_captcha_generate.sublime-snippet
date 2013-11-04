@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_captcha_generate(${1:})
+]]></content>
+  <tabTrigger>cot_captcha_generate</tabTrigger>
+  <description>Generates a captcha.</description>
+  <scope>source.php</scope>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_message('${1:mymessage}', '${2:ok}')
+]]></content>
+  <tabTrigger>cot_message</tabTrigger>
+  <description>Records a generic message to be displayed on results page.</description>
+  <scope>source.php</scope>
+</snippet>

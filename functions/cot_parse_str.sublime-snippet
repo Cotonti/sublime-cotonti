@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_parse_str(${1:\$str})
+]]></content>
+  <tabTrigger>cot_parse_str</tabTrigger>
+  <description>Splits a query string into keys and values array.</description>
+  <scope>source.php</scope>
+</snippet>

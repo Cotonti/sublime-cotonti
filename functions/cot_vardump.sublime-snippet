@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_vardump(${1:})
+]]></content>
+  <tabTrigger>cot_vardump</tabTrigger>
+  <description>Pritns structure and contents of all global variables currently assigned.</description>
+  <scope>source.php</scope>
+</snippet>

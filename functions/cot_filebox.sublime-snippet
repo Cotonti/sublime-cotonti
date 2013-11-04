@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_filebox('${1:name}', '${2:value}', '${3:filepath}', '${4:delname}')
+]]></content>
+  <tabTrigger>cot_filebox</tabTrigger>
+  <description>Generates a form input file from a resource string.</description>
+  <scope>source.php</scope>
+</snippet>

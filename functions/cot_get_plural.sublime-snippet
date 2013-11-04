@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_get_plural(${1:\$plural}, '${2:en}', ${3:false})
+]]></content>
+  <tabTrigger>cot_get_plural</tabTrigger>
+  <description>Used in cot_declension to get rules for concrete languages.</description>
+  <scope>source.php</scope>
+</snippet>

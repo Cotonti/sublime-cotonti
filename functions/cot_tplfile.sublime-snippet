@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_tplfile('${1:mymodule}', '${2:module}', ${3:true})
+]]></content>
+  <tabTrigger>cot_tplfile</tabTrigger>
+  <description>Returns path to a template file.</description>
+  <scope>source.php</scope>
+</snippet>

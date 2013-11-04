@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_declension(${1:\$digit}, ${2:\$expr})
+]]></content>
+  <tabTrigger>cot_declension</tabTrigger>
+  <description>Makes correct plural forms of words.</description>
+  <scope>source.php</scope>
+</snippet>

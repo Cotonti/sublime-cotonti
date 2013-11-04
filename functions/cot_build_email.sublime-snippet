@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_build_email(${1:\$email}, ${2:false})
+]]></content>
+  <tabTrigger>cot_build_email</tabTrigger>
+  <description>Returns user email link.</description>
+  <scope>source.php</scope>
+</snippet>

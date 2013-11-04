@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_uriredir_apply(${1:true})
+]]></content>
+  <tabTrigger>cot_uriredir_apply</tabTrigger>
+  <description>Apply URI-redir that stored in session.</description>
+  <scope>source.php</scope>
+</snippet>

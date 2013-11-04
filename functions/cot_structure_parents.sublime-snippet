@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_structure_parents('${1:myplugin}', ${2:\$cat})
+]]></content>
+  <tabTrigger>cot_structure_parents</tabTrigger>
+  <description>Gets an array of category parents.</description>
+  <scope>source.php</scope>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_build_stars(${1:\$level})
+]]></content>
+  <tabTrigger>cot_build_stars</tabTrigger>
+  <description>Returns stars image for user level.</description>
+  <scope>source.php</scope>
+</snippet>

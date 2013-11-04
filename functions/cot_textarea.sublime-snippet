@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_textarea('${1:name}', '${2:value}', ${3:20}, ${4:56}, '${5:}', '${6:}')
+]]></content>
+  <tabTrigger>cot_textarea</tabTrigger>
+  <description>Generates a textarea.</description>
+  <scope>source.php</scope>
+</snippet>

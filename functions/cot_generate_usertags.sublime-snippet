@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_generate_usertags(${1:\$row}, '${2:ROW_USER_}')
+]]></content>
+  <tabTrigger>cot_generate_usertags</tabTrigger>
+  <description>Returns all user tags for XTemplate.</description>
+  <scope>source.php</scope>
+</snippet>

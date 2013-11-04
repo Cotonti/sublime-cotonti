@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_build_friendlynumber(${1:\$number}, array('${2:3600}' => '${3:hours}', '${4:60}' => '${5:minutes}', '${6:1}' => '${7:seconds}'))
+]]></content>
+  <tabTrigger>cot_build_friendlynumber</tabTrigger>
+  <description>Generic function for generating a human-readable number with localized units.</description>
+  <scope>source.php</scope>
+</snippet>

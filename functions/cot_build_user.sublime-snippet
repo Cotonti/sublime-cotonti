@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_build_user(${1:\$userid}, htmlspecialchars(${2:\$username}))
+]]></content>
+  <tabTrigger>cot_build_user</tabTrigger>
+  <description>Returns link to user profile.</description>
+  <scope>source.php</scope>
+</snippet>

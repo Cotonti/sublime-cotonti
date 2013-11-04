@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+cot_radiobox('${1:}', '${2:fieldname}', array(${3:1}, ${4:0}), array(${5:\$L['Yes']}, ${6:\$L['No'])})
+]]></content>
+  <tabTrigger>cot_radiobox</tabTrigger>
+  <description>Generates a radio input group.</description>
+  
+  <scope>source.php.embedded.block.html, comment.block.documentation.phpdoc.php</scope>
+</snippet>

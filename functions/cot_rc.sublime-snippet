@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_rc('${1:myitem}', array('${2:id}' => ${3:\$id}))
+]]></content>
+  <tabTrigger>cot_rc</tabTrigger>
+  <description>Resource string formatter function. Takes a string with predefined variable substitution.</description>
+  <scope>source.php</scope>
+</snippet>

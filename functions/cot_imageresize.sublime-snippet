@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_imageresize(${1:\$filepath}, ${2:\$filepath}, ${3:\$settings['width']}, ${4:\$settings['height']}, ${5:\$settings['crop']}, '${6:}', ${7:100})
+]]></content>
+  <tabTrigger>cot_imageresize</tabTrigger>
+  <description>Resize an image.</description>
+  <scope>source.php</scope>
+</snippet>

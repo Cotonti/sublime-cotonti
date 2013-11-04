@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_get_caller(${1:})
+]]></content>
+  <tabTrigger>cot_get_caller</tabTrigger>
+  <description>Returns name part of the caller file.</description>
+  <scope>source.php</scope>
+</snippet>

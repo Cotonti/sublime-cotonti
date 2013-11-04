@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_timezone_transitions(${1:\$tz})
+]]></content>
+  <tabTrigger>cot_timezone_transitions</tabTrigger>
+  <description>Returns previous, current and next transition in a certain timezone.</description>
+  <scope>source.php</scope>
+</snippet>

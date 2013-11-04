@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_implode_messages(${1:})
+]]></content>
+  <tabTrigger>cot_implode_messages</tabTrigger>
+  <description>Collects all messages and implodes them into a single string.</description>
+  <scope>source.php</scope>
+</snippet>

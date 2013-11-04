@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_import_buffered(${1:\$name}, ${2:\$value})
+]]></content>
+  <tabTrigger>cot_import_buffered</tabTrigger>
+  <description>Attempts to fetch a buffered value for a variable previously imported if the currently imported value is empty.</description>
+  <scope>source.php</scope>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_hash_sha1(${1:\$data}, ${2:\$salt})
+]]></content>
+  <tabTrigger>cot_hash_sha1</tabTrigger>
+  <description>SHA1 hash func for use with cot_hash().</description>
+  <scope>source.php</scope>
+</snippet>

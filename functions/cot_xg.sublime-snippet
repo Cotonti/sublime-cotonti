@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_xg(${1:})
+]]></content>
+  <tabTrigger>cot_xg</tabTrigger>
+  <description>Returns XSS protection variable for GET URLs.</description>
+  <scope>source.php</scope>
+</snippet>

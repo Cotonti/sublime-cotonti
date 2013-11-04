@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_blockguests(${1:})
+]]></content>
+  <tabTrigger>cot_blockguests</tabTrigger>
+  <description>Block guests from viewing the page.</description>
+  <scope>source.php</scope>
+</snippet>

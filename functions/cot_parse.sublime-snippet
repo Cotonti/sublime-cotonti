@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_parse(${1:\$page_data['text']}, ${2:\$cfg['page']['markup']}, ${3:\$page_data['page_parser']})
+]]></content>
+  <tabTrigger>cot_parse</tabTrigger>
+  <description>Parses text body.</description>
+  <scope>source.php</scope>
+</snippet>

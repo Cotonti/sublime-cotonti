@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_timezone_offset(${1:\$cfg['defaulttimezone']}, ${2:true})
+]]></content>
+  <tabTrigger>cot_timezone_offset</tabTrigger>
+  <description>Returns the offset from GMT in seconds or hours, with or without DST.</description>
+  <scope>source.php</scope>
+</snippet>

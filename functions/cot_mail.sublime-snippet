@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_mail(${1:\$fmail}, ${2:\$subject}, ${3:\$body}, '${4:}', ${5:false}, ${6:null}, ${7:false})
+]]></content>
+  <tabTrigger>cot_mail</tabTrigger>
+  <description>Sends mail with standard PHP mail().</description>
+  <scope>source.php</scope>
+</snippet>

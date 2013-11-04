@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_build_group(${1:\$grpid}, ${2:false})
+]]></content>
+  <tabTrigger>cot_build_group</tabTrigger>
+  <description>Returns group link (button).</description>
+  <scope>source.php</scope>
+</snippet>

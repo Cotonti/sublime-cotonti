@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_log_import(${1:\$source}, ${2:\$filter}, ${3:\$name}, ${4:\$v})
+]]></content>
+  <tabTrigger>cot_log_import</tabTrigger>
+  <description>Logs wrong input.</description>
+  <scope>source.php</scope>
+</snippet>

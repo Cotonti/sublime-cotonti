@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_rc_minify(${1:\$code}, '${2:js}')
+]]></content>
+  <tabTrigger>cot_rc_minify</tabTrigger>
+  <description>JS/CSS minification function.</description>
+  <scope>source.php</scope>
+</snippet>

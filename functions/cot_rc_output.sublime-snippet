@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_rc_output(${1:})
+]]></content>
+  <tabTrigger>cot_rc_output</tabTrigger>
+  <description>Sends registered header resources to head output.</description>
+  <scope>source.php</scope>
+</snippet>

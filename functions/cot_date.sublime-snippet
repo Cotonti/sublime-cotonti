@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+cot_date('${1:datetime_short}', ${2:\$date})
+]]></content>
+  <tabTrigger>cot_date</tabTrigger>
+  <description>Localized version of PHP date().</description>
+  <scope>source.php</scope>
+</snippet>
